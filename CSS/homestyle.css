@@ -51,3 +51,16 @@
   justify-content: center;
 }
 
+.think-box {
+  width: 180px;
+  height: 200px;
+  margin-bottom: 10px;
+  background-image: url(../Images/Ithink-NO-CHECKMARK.png);
+  background-size: cover;
+  transition: background-image 0.3s ease;
+
+}
+
+.think-box:hover {
+    background-image: url(../Images/Ithink-CHECKMARK.png);
+}

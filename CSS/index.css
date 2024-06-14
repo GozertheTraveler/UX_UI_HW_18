@@ -45,9 +45,25 @@
     height: 100%;
     width: 33%;
 }
+
+.flex-box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;    
+    width: 100%;
+
+}
   
 h1 {
     font-size: 43px;
     color: darkblue;
     opacity: 75%;
 }
+
+
+
+
+

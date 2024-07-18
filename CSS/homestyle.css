@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    height: auto;
     justify-content: space-around;
     
   
@@ -22,7 +23,7 @@
 }
 .flex-box {
  display: flex;
- height: 550px;
+ height: auto;
  width: 25%;
  margin-left: 51px;
  margin-bottom: 44px;
@@ -32,7 +33,7 @@
 
 .flex-box2 {
   display: flex;
-  height: 570px;
+  height: auto;
   width: 75%;
   margin-left: 45px;
   margin-bottom: 11px;
@@ -43,7 +44,7 @@
 .flex-box3 {
   display: flex;
   gap: 20px;
-  height: 550px;
+  height: auto;
   width: 25%;
   margin-right: 55px;
   margin-bottom: 70px;
@@ -63,4 +64,23 @@
 
 .think-box:hover {
     background-image: url(../Images/Ithink-NO-CHECKMARK.png);
+}
+
+.flex-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgMain {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
 }

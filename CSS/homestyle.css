@@ -82,5 +82,5 @@
 
 .maingrid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 25% 25% 25% 25%;
 }

@@ -64,6 +64,14 @@ h1 {
 }
 
 
+.maingrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr
+}
 
+.imgMain {
+    width: auto;
+    height: 100%;
+  }
 
 

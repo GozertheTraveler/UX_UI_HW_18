@@ -42,8 +42,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 33%;
+    height: auto;
+    width: 41%;
 }
 
 .flex-box4 {
@@ -75,3 +75,43 @@ h1 {
   }
 
 
+#heroGrid {
+    display: grid;
+    height: 500px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "education pe akills pdf"
+        "education pe skills pdf"
+        "education pe skills pdf"
+        "education pe skills pdf"
+    ;
+}
+
+#education {
+    grid-area: education;
+    background-image: url(../Images/Resume-education.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#pe {
+    grid-area: pe;
+    background-image: url(../Images/prof-experience.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#skills {
+    grid-area: skills;
+    background-image: url(../Images/Skills002.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#pdf {
+    grid-area: pdf;
+    background-image: url(../Images/PDF.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

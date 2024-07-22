@@ -92,7 +92,7 @@ h1 {
     grid-area: education;
     background-image: url(../Images/Resume-education.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 65%;
 }
 
 #pe {
